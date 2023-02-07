@@ -1,0 +1,189 @@
+
+.skills{
+    margin-left: 290px;
+    margin-bottom: 50px;
+}
+.aside .nav li a.active{
+    color: rgb(209, 111, 82);
+}
+
+.skills .container{
+    margin: 10px;
+
+}
+
+.col{
+    position: relative;
+}
+.col img{
+    height: 400px;
+    width: 350px;
+    border-radius: 12px;
+}
+.skills-content1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 10px;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.col2{
+    position: relative;
+}
+.col2 img{
+    height: 330px;
+    width: 450px;
+    border-radius: 12px;
+}
+.skills-content2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+    transition: all .40s;
+}
+.layer:hover{
+    background: linear-gradient(rgba(0,0,0,0.5) 0%, #191919);
+    
+}
+.layer h3{
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+}
+.layer:hover h3{
+    bottom: 52%;
+    opacity: 1;
+}
+.layer h5{
+    position: absolute;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+}
+.layer:hover h5{
+    bottom: 45%;
+    opacity: 1;
+}
+
+@media (max-width:900px){
+    .skills{
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .skills .container{
+        margin: 10px;
+    
+    }
+    
+    .col{
+        position: relative;
+    }
+    .col img{
+        height: 400px;
+        width: 350px;
+        border-radius: 12px;
+    }
+    .skills-content1{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+        grid-gap: 10px;
+        align-items: center;
+        margin-top: 5rem;
+        text-align: center;
+        cursor: pointer;
+    }
+    .col2{
+        position: relative;
+    }
+    .col2 img{
+        height: 330px;
+        width: 450px;
+        border-radius: 12px;
+    }
+    .skills-content2{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+        grid-gap: 2rem;
+        align-items: center;
+        margin-top: 5rem;
+        text-align: center;
+        cursor: pointer;
+    }
+    .layer{
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 12px;
+        transition: all .40s;
+    }
+    .layer:hover{
+        background: linear-gradient(rgba(0,0,0,0.5) 0%, #191919);
+        
+    }
+    .layer h3{
+        position: absolute;
+        width: 100%;
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: all .40s;
+    }
+    .layer:hover h3{
+        bottom: 52%;
+        opacity: 1;
+    }
+    .layer h5{
+        position: absolute;
+        width: 100%;
+        font-size: 17px;
+        font-weight: 500;
+        color: white;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: all .40s;
+    }
+    .layer:hover h5{
+        bottom: 45%;
+        opacity: 1;
+    }
+    
+    
+}

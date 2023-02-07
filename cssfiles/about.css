@@ -1,0 +1,549 @@
+
+.box1, .box2, .box3, .box4{
+    background-color:  #a09dc5;
+    overflow: hidden;
+    height: 43.2632vh;
+    max-width: 100%;
+    height: 350px;
+   
+
+}
+.aside .nav li a.active{
+    color: rgb(209, 111, 82);
+   
+}
+
+.grid{
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 100px;
+}
+.grid > div{
+    flex-basis: calc(50% - 40px);
+}
+.box1{
+    padding: 40px;
+}
+.box1 h1{
+    color: white;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.box1 p{
+    color:white;
+    margin-top: 21px ;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2 img{
+    object-fit: cover;
+    height: 350px;
+    width: 520px;
+   
+}
+
+.box3 img{
+    object-fit: cover;
+    height: 480px;
+    width: 520px;
+   
+}
+.box4 p{
+    color:white;
+    padding: 50px;
+    margin-top: 21px ;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box4 a:hover{
+    transition: 0.5s;
+    background-color: rgb(91, 87, 87);
+    margin-left: 50px;
+    padding: 14px 0;
+    background-color: gray;
+    border: 0;
+    border-radius: 20px;
+    
+    
+    
+}
+button{
+    margin-left: 50px;
+    width: 180px;
+    color: #000;
+    padding: 12px 0;
+    background-color: gray;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    font-size: 17px;
+    color: white;
+    font: bold;
+    
+
+}
+
+
+
+
+@media (max-width:1348px){
+   
+    
+    .box1, .box2, .box3, .box4{
+        background-color:  #a09dc5;
+        overflow: hidden;
+        height: 43.2632vh;
+        max-width: 100%;
+        height: 350px;
+       
+    
+    }
+    .grid{
+     
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 10px;
+       
+    }
+    .grid > div{
+        flex-basis: calc(100% - 90px);
+    }
+    .box1{
+        height: 270px;
+        padding: 50px;
+        background: #a09dc5;
+       
+    }
+    .box1 h1{
+        color: white;
+        margin-top: 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+    }
+    
+    .box1 p{
+        color:white;
+        margin-top: 21px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+        
+    }
+    .box2 img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 0px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right:auto ;
+        padding: 10px;
+       
+       
+    }
+    
+    .box3 img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 0px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right:auto ;
+        padding: 10px;
+       
+       
+    }
+    }
+    .box4 p{
+        color:white;
+        padding: 50px;
+        margin-top: 21px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box4 a:hover{
+        transition: 0.5s;
+        background-color: rgb(91, 87, 87);
+        margin-left: 50px;
+        padding: 14px 0;
+        background-color: gray;
+        border: 0;
+        border-radius: 20px;
+        
+        
+        
+    }
+    button{
+        margin-left: 50px;
+        width: 180px;
+        color: #000;
+        padding: 12px 0;
+        background-color: gray;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        font-size: 17px;
+        color: white;
+        font: bold;
+        
+    
+    }
+    
+
+@media (max-width:1048px){
+      
+    .box1, .box2, .box3, .box4{
+        background-color: #a9a6c7;
+        overflow: hidden;
+        height: 43.2632vh;
+        max-width: 100vh;
+        height: 350px;
+       
+    
+    }
+    .grid{
+     
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 10px;
+       
+    }
+    .grid > div{
+        flex-basis: calc(100% - 90px);
+    }
+    .box1{
+        padding: 40px;
+    
+    }
+    .box1 h1{
+        color: white;
+        margin-top: 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+    }
+    
+    .box1 p{
+        color:white;
+        margin-top: 21px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box2 img{
+        object-fit: cover;
+        height: 350px;
+        width: 520px;
+       
+    }
+    
+    .box3 img{
+        object-fit: cover;
+        height: 480px;
+        width: 520px;
+       
+    }
+    .box4 p{
+        color:white;
+        padding: 50px;
+        margin-top: 21px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box4 a:hover{
+        transition: 0.5s;
+        background-color: rgb(91, 87, 87);
+        margin-left: 50px;
+        padding: 14px 0;
+        background-color: gray;
+        border: 0;
+        border-radius: 20px;
+        
+        
+        
+    }
+    button{
+        margin-left: 50px;
+        width: 180px;
+        color: #000;
+        padding: 12px 0;
+        background-color: gray;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        font-size: 17px;
+        color: white;
+        font: bold;
+        
+    
+    }
+}
+
+@media (max-width:900px){
+
+
+.box1, .box2, .box3, .box4{
+    background-color: #a09dc5;
+    overflow: hidden;
+    height: 43.2632vh;
+    max-width: 100%;
+    height: 300px;
+   
+
+}
+.grid{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 0px;
+     margin-left: -260px;
+  
+   
+}
+.grid > div{
+    flex-basis: calc(100% - 90px);
+}
+.box1{
+    padding: 40px;
+}
+.box1 h1{
+    color: white;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.box1 p{
+    color:white;
+    margin-top: 21px ;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.box2 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right:auto ;
+   
+   
+}
+
+.box3 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right:auto ;
+   
+   
+}
+.box4 p{
+    color:white;
+    padding: 50px;
+    margin-top: 21px ;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box4 a:hover{
+    transition: 0.5s;
+    background-color: rgb(91, 87, 87);
+    margin-left: 50px;
+    padding: 14px 0;
+    background-color: gray;
+    border: 0;
+    border-radius: 20px;
+    
+    
+    
+}
+button{
+    margin-left: 50px;
+    width: 180px;
+    color: #000;
+    padding: 12px 0;
+    background-color: gray;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    font-size: 17px;
+    color: white;
+    font: bold;
+    
+
+}
+}
+
+
+@media (max-width:600px){
+
+
+    .box1, .box2, .box3, .box4{
+        background-color: #a09dc5;
+        overflow: hidden;
+        height: 70vh;
+        max-width: 100vh;
+        height: 300px;
+    
+       
+    }
+    .grid{
+     
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-right: 0px;
+      margin-left: -260px;
+      
+       
+    }
+    .grid > div{
+        flex-basis: calc(100% - 90px);
+    }
+    .box1{
+        height: 400px;
+        padding: 50px;
+        background:  #a09dc5;
+       
+    }
+    .box1 h1{
+        color: white;
+        margin-top: 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+    }
+    
+    .box1 p{
+        color:white;
+        margin-top: 21px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+        
+    }
+    .box2 img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right:auto ;
+        padding: 10px;
+       
+       
+    }
+    
+    .box3 img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 0px;
+        margin-top: -20px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right:auto ;
+        padding: 10px;
+       
+       
+    }
+    .box4 p{
+        color:white;
+        padding: 50px;
+        margin-top: 21px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box4 a:hover{
+        transition: 0.5s;
+        background-color: rgb(91, 87, 87);
+        margin-left: 50px;
+        padding: 14px 0;
+        background-color: gray;
+        border: 0;
+        border-radius: 20px;
+        
+        
+        
+    }
+    button{
+        margin-left: 50px;
+        width: 180px;
+        color: #000;
+        padding: 12px 0;
+        background-color: gray;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        font-size: 17px;
+        color: white;
+        font: bold;
+        
+    
+    }
+    }
+
+
+    
+    .box3 img{
+       
+        max-width: 100%;
+      height: auto;
+      display: block;
+     
+       
+    }
+    .box4 p{
+        color:white;
+        padding: 50px;
+        margin-top: 21px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box4 a:hover{
+        transition: 0.5s;
+        background-color: rgb(91, 87, 87);
+        margin-left: 50px;
+        padding: 14px 0;
+        background-color: gray;
+        border: 0;
+        border-radius: 20px;
+        
+        
+        
+    }
+    button{
+        margin-left: 50px;
+        width: 180px;
+        color: #000;
+        padding: 12px 0;
+        background-color: gray;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        font-size: 17px;
+        color: white;
+        font: bold;
+        
+    
+    }

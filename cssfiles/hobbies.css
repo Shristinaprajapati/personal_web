@@ -1,0 +1,786 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+.hobbies{
+    margin-left: 270px;
+   position: fix;
+   background-color: rgb(238, 236, 236);
+  
+
+  
+} 
+.aside .nav li a.active{
+    color: rgb(209, 111, 82);
+}
+
+.top{
+    
+    width: 100%;
+    background-image: url(hobbies5.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 220px;
+    width: 1270px;
+    object-fit: contain;
+    display: flex;
+   margin-bottom: 0;
+   background-position: fixed;
+  
+ 
+   
+}
+.top h1{
+    padding: 80px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.top p{
+    padding: 80px;
+    margin-left: 10px;
+    color: gray;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+
+}
+.first{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+   
+}
+.first-inner{
+    display: flex;
+   
+    position: absolute;
+    background-color: #E7BAA0;
+    margin-right: 70px;
+    
+}
+.first-inner h2{
+   margin-left: 90px;
+   margin-top: 10%;
+   font-family:  'Clicker Script';
+   font-size: 29px;
+ }
+.first-inner p{
+  margin-left: 90px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.first-inner img{
+    display: block;
+   
+   
+}
+.second{
+    padding: 100px;
+   margin-top: 90px;
+    display: flex;
+    
+}
+.second-inner {
+    padding: 100px;
+    display: flex;
+    background-color: #8daf72;
+    margin-right: -30px;
+    margin-bottom: -300px;
+    
+}
+.second-inner img{
+    margin-left: 100px;
+   margin-right: -100px;
+   display: block;
+}
+.second-inner p{
+   padding: 10px;
+   margin-top: 10px;
+   margin-right: 30px;
+   
+}
+.second-inner h2{
+    margin-top: 80px;
+    font-family:  'Clicker Script';
+    font-size: 30px;
+}
+
+.third{
+    padding: 100px;
+    margin-bottom: 80px;
+    
+}
+
+@media (max-width:1380px){
+    .hobbies{
+        margin-left: 250px;
+       position: absolute;
+       background-color: rgb(238, 236, 236);
+    
+      
+    } 
+    
+    .top{
+        
+        width: 100%;
+        background-image: url(hobbies5.png);
+       background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 120px;
+        width: 100%;
+        object-fit: contain;
+        display: flex;
+       margin-bottom: 0;
+       background-position: fixed;
+      
+     
+       
+    }
+    .top h1{
+        padding: 40px;
+        margin-left: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+    .top p{
+        display: none;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .first{
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+       
+    }
+    .first-inner{
+        display: flex;
+       
+        position: absolute;
+        background-color: #E7BAA0;
+        margin-right: 30px;
+       
+        
+    }
+    .first-inner h2{
+       margin-left: 90px;
+       font-family:  'Clicker Script';
+       font-size: 29px;
+       margin-top: 30px;
+     }
+    .first-inner p{
+      margin-left: 40px;
+      margin-right: 50px;
+      margin-top: 20px;
+      font-size: 15px;
+      margin-bottom: 20px;
+     
+    }
+    .first-inner img{
+        display: block;
+       margin-left: 30px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       border-radius: 20px;
+    }
+    .second{
+        padding: 50px;
+       margin-top: 180px;
+        display: flex;
+        margin-right: 30px;
+       
+        
+    }
+    .second-inner {
+        padding: 80px;
+        display: flex;
+        background-color: #8daf72;
+        margin-bottom: -300px;
+        margin-right: -50px;
+        
+    }
+    .second-inner img{
+       display: block;
+       margin-left: 80px;
+       margin-right: 0px;
+       margin-top: 60px;
+       margin-bottom: 40px;
+       border-radius: 20px;
+       
+    }
+    .second-inner p{
+       padding: 0px;
+       margin-top: 20px;
+       margin-bottom: 40px;
+       margin-right: 0px;
+       font-size: 15px;
+       margin-left: -30px;
+       
+    }
+    .second-inner h2{
+
+        font-family:  'Clicker Script';
+        font-size: 30px;
+    }
+    
+    .third{
+        margin-top: 100px;
+        padding: 50px;
+        margin-bottom: 80px;
+        
+    }
+}
+
+@media (max-width:1070px){
+           
+.hobbies{
+    margin-left: 250px;
+   position: absolute;
+   background-color: rgb(238, 236, 236);
+
+  
+} 
+
+.top{
+    
+    width: 100%;
+
+    background-image: url(hobbies5.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 120px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+   margin-bottom: 0;
+   background-position: fixed;
+  
+ 
+   
+}
+.top h1{
+    padding: 40px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.top p{
+    display: none;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+
+}
+.first{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+   
+}
+.first-inner{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #E7BAA0;
+    margin-right: 30px;
+   
+    
+}
+.first-inner h2{
+   margin-left: 90px;
+   font-family:  'Clicker Script';
+   font-size: 29px;
+   margin-top: 0px;
+ }
+.first-inner p{
+    margin-top: 1px;
+  margin-left: 40px;
+  margin-right: 50px;
+  font-size: 15px;
+  margin-bottom: 20px;
+ 
+}
+.first-inner img{
+    
+   transform: rotate(270deg);
+   max-width: 100%;
+   max-height: 500px;
+   display: block;
+   border-radius: 0px;
+   border-radius: 20px;
+   margin-bottom: 14px;
+   margin-left: auto;
+   margin-right:auto ;
+   padding: 10px;
+ 
+}
+.second{
+    padding: 50px;
+   margin-top: 170px;
+    display: flex;
+    margin-right: 30px;
+   
+    
+}
+.second-inner {
+    padding: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #8daf72;
+    margin-right: -50px;
+    margin-bottom: -300px;
+    margin-top: 30px;
+    
+    
+}
+.second-inner img{
+   /* display: block;
+   margin-left: 130px;
+   margin-right: -100px;
+   margin-top: 250px;
+   border-radius: 20px; */
+
+   margin-top: 340px;
+   max-width: 100%;
+   max-height: 500px;
+   display: block;
+   border-radius: 0px;
+   border-radius: 20px;
+   margin-bottom: 114px;
+   margin-left: auto;
+   margin-right:auto ;
+   padding: 10px;
+}
+.second-inner p{
+   padding: 0px;
+   margin-top: 10px;
+   margin-bottom: 40px;
+   margin-right: 0px;
+   font-size: 15px;
+   margin-left: -30px;
+   
+}
+.second-inner h2{
+    margin-top: -90px;
+    font-family:  'Clicker Script';
+    font-size: 30px;
+}
+
+.third{
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 80px;
+    
+}
+}
+
+@media (max-width:900px){
+    
+.hobbies{
+    margin-left: 0px;
+   position: absolute;
+   background-color: rgb(238, 236, 236);
+
+  
+} 
+
+.top{
+    
+    width: 100%;
+    background-image: url(hobbies5.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 120px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+   margin-bottom: 0;
+   background-position: fixed;
+  
+ 
+   
+}
+.top h1{
+    padding: 40px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.top p{
+    display: none;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+
+}
+.first{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+   
+}
+.first-inner{
+    display: flex;
+    position: absolute;
+    background-color: #E7BAA0;
+    margin-right: 30px;
+    
+}
+.first-inner h2{
+   margin-left: 90px;
+   margin-top: 0px;
+   font-family:  'Clicker Script';
+   font-size: 29px;
+ }
+.first-inner p{
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-top: 20px;
+  font-size: 15px;
+ 
+}
+.first-inner img{
+      
+   transform: rotate(270deg);
+   max-width: 100%;
+   max-height: 500px;
+   display: block;
+   border-radius: 0px;
+   border-radius: 20px;
+   margin-bottom: 14px;
+   margin-left: auto;
+   margin-right:auto ;
+   padding: 10px;
+}
+.second{
+    padding: 50px;
+   margin-top: 170px;
+    display: flex;
+    margin-right: 30px;
+   
+    
+}
+.second-inner {
+    padding: 80px;
+    display: flex;
+    background-color: #8daf72;
+    margin-bottom: -300px;
+    
+}
+.second-inner img{
+    margin-top: 340px;
+    max-width: 100%;
+    max-height: 500px;
+    display: block;
+    border-radius: 0px;
+    border-radius: 20px;
+    margin-bottom: 114px;
+    margin-left: auto;
+    margin-right:auto ;
+    padding: 10px;
+}
+.second-inner p{
+   padding: 0px;
+   margin-top: 10px;
+   margin-right: -10px;
+   margin-bottom: 40px;
+   font-size: 15px;
+   margin-left: -30px;
+   
+}
+.second-inner h2{
+    margin-top: -20px;
+    font-family:  'Clicker Script';
+    font-size: 30px;
+}
+
+.third{
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 80px;
+    
+}
+
+}
+
+
+
+
+@media(max-width:850px){
+       
+.hobbies{
+    margin-left: 0px;
+   position: absolute;
+   background-color: rgb(238, 236, 236);
+
+  
+} 
+
+.top{
+    
+    width: 100%;
+    background-image: url(hobbies5.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 120px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+   margin-bottom: 0;
+   background-position: fixed;
+  
+ 
+   
+}
+.top h1{
+    padding: 40px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.top p{
+    display: none;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+
+}
+.first{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+   
+}
+.first-inner{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #E7BAA0;
+    margin-right: 30px;
+   
+    
+}
+.first-inner h2{
+   margin-left: 90px;
+   font-family:  'Clicker Script';
+   font-size: 29px;
+   margin-top: 5px;
+ }
+.first-inner p{
+  margin-left: 40px;
+  margin-right: 50px;
+  font-size: 15px;
+  margin-bottom: 20px;
+ 
+}
+.first-inner img{
+      
+   transform: rotate(270deg);
+   max-width: 100%;
+   max-height: 500px;
+   display: block;
+   border-radius: 0px;
+   border-radius: 20px;
+   margin-bottom: 14px;
+   margin-left: auto;
+   margin-right:auto ;
+   padding: 10px;
+}
+.second{
+    padding: 50px;
+   margin-top: 170px;
+    display: flex;
+    margin-right: 30px;
+   
+    
+}
+.second-inner {
+    padding: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #8daf72;
+    margin-right: -50px;
+    margin-bottom: -300px;
+    
+    
+}
+.second-inner img{
+    margin-top: 340px;
+   max-width: 100%;
+   max-height: 500px;
+   display: block;
+   border-radius: 0px;
+   border-radius: 20px;
+   margin-bottom: 14px;
+   margin-left: auto;
+   margin-right:auto ;
+   padding: 10px;
+}
+.second-inner p{
+   padding: 0px;
+   margin-top: 10px;
+   margin-bottom: 40px;
+   margin-right: 0px;
+   font-size: 15px;
+   margin-left: -30px;
+   
+}
+.second-inner h2{
+    margin-top: 40px;
+    font-family:  'Clicker Script';
+    font-size: 30px;
+}
+
+.third{
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 80px;
+    
+}
+}
+
+@media(max-width:410px){
+           
+.hobbies{
+    margin-left: 0px;
+   position: absolute;
+   width: 410px;
+   background-color: rgb(238, 236, 236);
+
+  
+} 
+
+.top{
+    
+    width: 100%;
+    background-image: url(hobbies5.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 120px;
+    object-fit: contain;
+    display: flex;
+   margin-bottom: 0;
+   margin-top: -10px;
+   background-position: fixed;
+  
+ 
+   
+}
+.top h1{
+    padding: 40px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.top p{
+    display: none;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+
+}
+.first{
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+   
+}
+.first-inner{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #E7BAA0;
+    margin-right: -30px;
+    width: 410px;
+   
+    
+}
+.first-inner h2{
+   margin-left: 25px;
+   font-family:  'Clicker Script';
+   font-size: 29px;
+   margin-top: 5px;
+ }
+.first-inner p{
+  margin-left: 25px;
+  margin-right: 50px;
+  font-size: 15px;
+  margin-bottom: 20px;
+ 
+}
+.first-inner img{
+    display: block;
+    transform: rotate(270deg);
+   margin-left: 55px;
+   margin-top: 20px;
+   border-radius: 20px;
+   height: 350px;
+   width: 280px;
+}
+.second{
+    padding: 50px;
+   margin-top: 170px;
+    display: flex;
+    margin-right: 30px;
+   
+    
+}
+.second-inner {
+    padding: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #8daf72;
+    margin-left: -50px;
+    margin-right: -80px;
+    margin-bottom: -300px;
+    
+    
+}
+.second-inner img{
+   display: block;
+   margin-left: -10px;
+   margin-right: -100px;
+   margin-top: 300px;
+   border-radius: 20px;
+   height: 300px;
+   width: 250px;
+}
+.second-inner p{
+   padding: -10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 0px;
+   font-size: 15px;
+   margin-left: -50px;
+   
+}
+.second-inner h2{
+    margin-top: 0px;
+    margin-left: -40px;
+    font-family:  'Clicker Script';
+    font-size: 30px;
+}
+
+.third{
+    margin-left: -50px;
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 80px;
+    
+}
+}
+

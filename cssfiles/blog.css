@@ -1,0 +1,728 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.aside .nav li a.active{
+    color: rgb(209, 111, 82);
+}
+.blog{
+    margin-left: 270px;
+   position: absolute;
+
+  
+} 
+
+.top{
+    
+    width: 100%;
+    background-image: url(img1.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 220px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+   margin-bottom: 0;
+   background-position: fixed;
+  
+ 
+   
+}
+.top h1{
+    padding: 80px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.top p{
+    padding: 80px;
+    margin-left: 10px;
+    color: gray;
+}
+.left{
+    padding: 40px;
+    height:640px ;
+}
+.bottom .left{
+    width: 50%;
+   
+}
+.bottom .left img{
+height: 310px;
+width: 510px;
+border-radius: 20px;
+max-width: 100%;
+height: auto;
+display: block;
+width: 510px;
+border-radius: 20px;
+}
+.bottom .left h3{
+    padding: 10px;
+    margin-top: 20px;
+}
+.bottom .left p{
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.left button{
+  margin-left: 10px;
+  margin-top: 30px;
+  height: 40px;
+  width: 155px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(226, 179, 117);
+  color: white;
+}
+.left button:hover{
+    color: white;
+    background-color: gray;
+    transition: 0.5s;
+}
+.recent{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: block;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.bottom{
+    display: flex;
+}
+
+
+.scroll-div{
+    width:600px;
+    background: rgb(206, 186, 223);
+    height:510px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 50px;
+    margin-top: 30px;
+   
+}
+
+.blog1{
+    display: flex;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+.blog1l img{
+    border-radius: 10px;
+}
+
+
+.blog1l h5{
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+}
+.blog1r a{
+    padding: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blog1r a:hover{
+    color: rgb(236, 13, 13);
+    text-decoration: underline;
+}
+.blog1r p{
+    font-size: 15px;
+    margin-left: 25px;
+}
+.rows{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+@media(max-width:1248px){
+    .blog{
+        margin-left: 250px;
+       
+    } 
+    
+    .top{
+        
+        width: 100%;
+        background-image: url(img1.jpg);
+       background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 220px;
+        width: 100%;
+        object-fit: contain;
+        display: flex;
+       margin-bottom: 0;
+       background-position: fixed;
+      
+     
+       
+    }
+    .top h1{
+        padding: 80px;
+        margin-left: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+    .top p{
+        padding: 80px;
+        margin-left: 0px;
+        color: gray;
+    }
+    .left{
+        padding: 40px;
+        height:640px ;
+    }
+    .bottom{
+        flex-direction: column;
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+    .bottom .left{
+        width: 100%;
+        margin-bottom: 40px;
+       
+    }
+    .bottom .left img{
+        max-width: auto;
+        height: auto;
+        display: block;
+        width: 510px;
+        border-radius: 20px;
+    }
+    .bottom .left h3{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .bottom .left p{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .left button{
+      margin-left: 10px;
+      margin-top: 30px;
+      background-color: rgb(226, 179, 117);
+      color: white;
+      margin-bottom: 50px;
+    }
+    .left button:hover{
+        color: white;
+        background-color: gray;
+        transition: 0.5s;
+    }
+    .recent{
+        
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: block;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    
+    .bottom{
+        display: flex;
+    }
+    
+    
+    .scroll-div{
+        width:auto;
+        background: rgb(206, 186, 223);
+        height:510px;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding: 50px;
+        margin-top: -100px;
+       
+    }
+    
+    .blog1{
+        display: flex;
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+    .blog1l img{
+        border-radius: 10px;
+    }
+    
+    
+    .blog1l h5{
+        position: absolute;
+        width: 100%;
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: all .40s;
+    }
+    .blog1r a{
+        padding: 25px;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .blog1r a:hover{
+        color: rgb(236, 13, 13);
+        text-decoration: underline;
+    }
+    .blog1r p{
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    .rows{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+}
+
+
+
+
+
+@media(max-width:900px){
+    .blog{
+        margin-left: 0px;
+       
+    } 
+    
+    .top{
+        
+        width: 100%;
+        background-image: url(img1.jpg);
+       background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 220px;
+        width: 100%;
+        object-fit: contain;
+        display: flex;
+       margin-bottom: 0;
+       background-position: fixed;
+      
+     
+       
+    }
+    .top h1{
+        padding: 80px;
+        margin-left: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+    .top p{
+        padding: 80px;
+        margin-left: 0px;
+        color: gray;
+    }
+    .left{
+        padding: 40px;
+        height:640px ;
+    }
+    .bottom{
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+    .bottom .left{
+        width: 80%;
+        margin-bottom: 40px;
+       
+    }
+    .bottom .left img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        width: 510px;
+        border-radius: 20px;
+    }
+    .bottom .left h3{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .bottom .left p{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .left button{
+      margin-left: 10px;
+      margin-top: 30px;
+      background-color: rgb(226, 179, 117);
+      color: white;
+      margin-bottom: 50px;
+    }
+    .left button:hover{
+        color: white;
+        background-color: gray;
+        transition: 0.5s;
+    }
+    .recent{
+        
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: block;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    
+    .bottom{
+        display: flex;
+    }
+    
+    
+    .scroll-div{
+        width:auto;
+        background: rgb(206, 186, 223);
+        height:510px;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding: 50px;
+        margin-top: -100px;
+       
+    }
+    
+    .blog1{
+        display: flex;
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+    .blog1l img{
+        border-radius: 10px;
+    }
+    
+    
+    .blog1l h5{
+        position: absolute;
+        width: 100%;
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: all .40s;
+    }
+    .blog1r a{
+        padding: 25px;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .blog1r a:hover{
+        color: rgb(236, 13, 13);
+        text-decoration: underline;
+    }
+    .blog1r p{
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    .rows{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+
+    }
+
+    @media(max-width:600px){
+        .blog{
+            margin-left: 0px;
+           
+        } 
+        
+        .top{
+            
+            width: 100%;
+            background-image: url(img1.jpg);
+           background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            height: 220px;
+            width: 100%;
+            object-fit: contain;
+            display: flex;
+           margin-bottom: 0;
+           background-position: fixed;
+          
+         
+           
+        }
+        .top h1{
+            padding: 80px;
+            margin-left: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        }
+        .top p{
+            display: none;
+        }
+        .left{
+            padding: 40px;
+            height:640px ;
+        }
+        .bottom{
+            flex-direction: column;
+            margin-left: 55px;
+            margin-bottom: 50px;
+        }
+        .bottom .left{
+            width: 90%;
+            margin-bottom: 40px;
+            margin-left: 0px;
+           
+        }
+        .bottom .left img{
+            max-width: 120%;
+            height: auto;
+            display: block;
+            width: 510px;
+            border-radius: 20px;
+        }
+        .bottom .left h3{
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .bottom .left p{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .left button{
+          margin-left: 10px;
+          margin-top: 30px;
+          background-color: rgb(226, 179, 117);
+          color: white;
+          margin-bottom: 50px;
+        }
+        .left button:hover{
+            color: white;
+            background-color: gray;
+            transition: 0.5s;
+        }
+        .recent{
+            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: block;
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+        
+        .bottom{
+            display: flex;
+        }
+        
+        
+        .scroll-div{
+            width:auto;
+            background: rgb(206, 186, 223);
+            height:510px;
+            overflow: hidden;
+            overflow-y: scroll;
+            padding: 50px;
+            margin-top: -50px;
+           
+        }
+        
+        .blog1{
+            display: flex;
+            margin-bottom: 8px;
+            margin-top: 5px;
+        }
+        .blog1l img{
+            border-radius: 10px;
+        }
+        
+        
+        .blog1l h5{
+            position: absolute;
+            width: 100%;
+            font-size: 25px;
+            font-weight: 500;
+            color: white;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: all .40s;
+        }
+        .blog1r a{
+            padding: 25px;
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        .blog1r a:hover{
+            color: rgb(236, 13, 13);
+            text-decoration: underline;
+        }
+        .blog1r p{
+            font-size: 15px;
+            margin-left: 25px;
+        }
+        .rows{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+        
+ @media (max-width:701px){
+    .top p{
+        display: none;
+    }
+ 
+
+ }   
+    
+    
+@media (max-width:420px){
+
+    .blog{
+    margin-left: 0px;
+    position: absolute;
+    width: 410px;  
+} 
+
+.top{
+    max-width: 100%;
+    height: auto;
+    display: block;
+        
+    width: 410px;
+    background-image: url(img1.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+   margin-bottom: 0;
+   background-position: fixed;
+}
+.top h1{
+    padding: 10px;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 20px;
+}
+.top p{
+    display: none;
+}
+
+.bottom{
+    margin-left: 0;
+    margin-right: 0;
+}
+.bottom .left{
+    width: 100%;
+    height: 500px;
+   
+}
+.bottom .left img{
+height: 200px;
+width: 310px;
+
+
+}
+.bottom .left h3{
+    padding: 10px;
+    margin-top: 20px;
+}
+.bottom .left p{
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+.left button{
+  margin-left: 10px;
+  margin-top: 30px;
+  background-color: rgb(226, 179, 117);
+  color: white;
+ 
+}
+.left button:hover{
+    color: white;
+    background-color: gray;
+    transition: 0.5s;
+}
+.recent{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: block;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.bottom{
+    display: flex;
+}
+
+
+.scroll-div{
+    width:400px;
+    background: rgb(206, 186, 223);
+    height:410px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 40px;
+    margin-top: 30px;
+   
+   
+}
+
+.blog1{
+    display: flex;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+.blog1l img{
+   height: 0;
+   width: 0;
+}
+
+
+.blog1l h5{
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+}
+.blog1r a{
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.blog1r a:hover{
+    color: rgb(236, 13, 13);
+    text-decoration: underline;
+}
+.blog1r p{
+    font-size: 15px;
+    margin-left: 0px;
+}
+.rows{
+    display: flex;
+    flex-direction: column;
+}
+}
+
