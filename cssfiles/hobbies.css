@@ -646,6 +646,152 @@
     
 }
 }
+@media(max-width:499px){
+           
+.hobbies{
+    margin-left: 0px;
+   position: absolute;
+   background-color: rgb(238, 236, 236);
+
+  
+} 
+
+.top{
+    
+    width: 100%;
+    background-image: url(hobbies5.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 120px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+   margin-bottom: 0;
+   background-position: fixed;
+  
+ 
+   
+}
+.top h1{
+    padding: 40px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.top p{
+    display: none;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+
+}
+.first{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+   
+}
+.first-inner{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #E7BAA0;
+    margin-right: 20px;
+    margin-left: 0px;
+   
+    
+}
+.first-inner h2{
+   margin-left: 90px;
+   font-family:  'Clicker Script';
+   font-size: 29px;
+   margin-top: 5px;
+ }
+.first-inner p{
+  margin-left: 40px;
+  margin-right: 50px;
+  font-size: 15px;
+  margin-bottom: 20px;
+ 
+}
+.first-inner img{
+      
+   transform: rotate(270deg);
+   max-width: 90%;
+   max-height: 350px;
+   display: block;
+   border-radius: 20px;
+   margin-bottom: 14px;
+   margin-left: auto;
+   margin-right:auto ;
+   padding: 10px;
+}
+.second{
+    padding: 50px;
+   margin-top: 170px;
+    display: flex;
+    margin-right: 30px;
+   
+    
+}
+.second-inner {
+    padding: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #8daf72;
+    margin-right: -60px;
+    margin-bottom: -300px;
+    
+    
+}
+.second-inner img{
+    margin-top: 380px;
+   max-width: 120%;
+   max-height: 310px;
+   display: block;
+   border-radius: 20px;
+   margin-bottom: 14px;
+   margin-left: auto;
+   margin-right:auto ;
+   padding: 0px;
+}
+.second-inner p{
+   padding: 0px;
+   margin-top: 10px;
+   margin-bottom: 40px;
+   margin-right: 0px;
+   font-size: 15px;
+   margin-left: -30px;
+   
+}
+.second-inner h2{
+    margin-top: 40px;
+    font-family:  'Clicker Script';
+    font-size: 30px;
+}
+
+.third{
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 80px;
+    
+}
+}
+@media (max-width:461px){
+    
+.second-inner img{
+    margin-top: 430px;
+   max-width: 100%;
+   max-height: 40%;
+   display: block;
+   border-radius: 20px;
+   margin-bottom: -120px;
+   margin-left: auto;
+   margin-right:auto ;
+   padding: 0px;
+}
+}
 
 @media(max-width:410px){
            
@@ -751,7 +897,7 @@
    margin-right: -100px;
    margin-top: 300px;
    border-radius: 20px;
-   height: 300px;
+   height: 400px;
    width: 250px;
 }
 .second-inner p{
