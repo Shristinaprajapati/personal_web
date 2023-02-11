@@ -129,14 +129,13 @@ h2:after{
 .right input{
         width: 100%;
         padding: 0.5rem 1rem;
-
         flex-direction: column;
         border: 2px solid white;
         border: 2px solid white;
         background-color: rgb(215, 217, 217);
         font-size: 1.1rem;
         margin-bottom: 22px;
-        transition:1000000s ;
+        transition:100000s;
         
     }
     .field:hover{
